@@ -81,7 +81,7 @@ const Home: React.FC = () => {
             <div className="mt-8 text-center">
               <p className="text-gray-200 mb-3">Experimente buscar por:</p>
               <div className="flex flex-wrap justify-center gap-2">
-                {['torvalds', 'gaearon', 'tj', 'sindresorhus'].map((username) => (
+                {['torvalds'].map((username) => (
                   <button
                     key={username}
                     onClick={() => handleSearch(username)}

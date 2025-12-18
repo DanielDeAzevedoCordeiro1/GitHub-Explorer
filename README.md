@@ -51,6 +51,11 @@ Se trata de uma SPA (Single Page Application) que realiza a partir de um nome de
     npm run dev
 ```
 
+```bash
+    # Roda alguns casos de teste
+    npm test
+```
+
 ---
 
 # Acesse a Opção Hospedada na Azure
